@@ -1,9 +1,16 @@
 ---
 - name: Instal Wireguard
+  hosts: user
+  become: true
+  roles:
+  - role: ansible-role-secure-ssh
+    tags: user
+
+- name: Instal Wireguard
   hosts: wireguard
   become: true
   roles:
-   - role: ansible-role-docker
-     tags: docker
-   - role: ansible-role-wireguard
-     tags: wireguard
+  - role: ansible-role-docker
+    tags: docker
+  - role: ansible-role-wireguard
+    tags: wireguard

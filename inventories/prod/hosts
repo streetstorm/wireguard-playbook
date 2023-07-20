@@ -1,5 +1,10 @@
+[all:vars]
+ansible_connection=ssh
+ansible_ssh_user=root
+ansible_ssh_pass=
+
 [user]
-example-vm ansible_ssh_host=5.55.55.555 ansible_ssh_user=root
+example-vm ansible_ssh_host=5.55.55.555
 
 [wireguard]
-example-vm ansible_ssh_host=5.55.55.555 ansible_ssh_user=user
+example-vm ansible_ssh_host=5.55.55.555

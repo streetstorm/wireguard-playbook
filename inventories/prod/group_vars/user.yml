@@ -1,0 +1,2 @@
+secure_ssh_user: user
+secure_ssh_identity_key: /home/user/.ssh/id_rsa.pub
