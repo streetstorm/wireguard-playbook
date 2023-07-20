@@ -1,0 +1,6 @@
+---
+- name: Instal Wireguard
+  hosts: user
+  become: true
+  roles:
+   - { role: ansible-role-secure-ssh, tags: user, secure_ssh_user: user, secure_ssh_identity_key: /home/user/.ssh/id_rsa.pub }

@@ -1,0 +1,11 @@
+- src: https://github.com/streetstorm/ansible-role-secure-ssh.git
+  scm: git
+  name: ansible-role-secure-ssh
+
+- src: https://github.com/streetstorm/ansible-role-docker.git
+  scm: git
+  name: ansible-role-docker
+
+- src: https://github.com/streetstorm/ansible-role-wireguard.git
+  scm: git
+  name: ansible-role-wireguard

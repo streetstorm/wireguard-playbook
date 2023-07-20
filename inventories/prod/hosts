@@ -1,0 +1,5 @@
+[user]
+example-vm ansible_ssh_host=5.55.55.555 ansible_ssh_user=root
+
+[wireguard]
+example-vm ansible_ssh_host=5.55.55.555 ansible_ssh_user=user
