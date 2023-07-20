@@ -13,3 +13,6 @@ Launching playbooks:
 2. ansible-galaxy install --force --ignore-errors -r requirements.yml
 3. ansible-playbook wireguard.yml -i inventories/prod/hosts
 ```
+
+How to generate QR-code:
+```qrencode -t png -o peer2.png -r peer2.conf```
