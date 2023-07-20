@@ -12,6 +12,6 @@ Launching playbooks:
 
 ```sh
 1. ansible-galaxy install --force --ignore-errors -r requirements.yml
-1. ansible-playbook secure-ssh.yml -i inventories/prod/hosts
-2. ansible-playbook wireguard.yml -i inventories/prod/hosts
+2. ansible-playbook secure-ssh.yml -i inventories/prod/hosts
+3. ansible-playbook wireguard.yml -i inventories/prod/hosts
 ```
