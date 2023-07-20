@@ -1,5 +1,5 @@
 ---
-- name: Instal Wireguard
+- name: Secure SSH
   hosts: user
   become: true
   roles:
